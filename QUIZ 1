@@ -79,7 +79,7 @@ class time(var state2: Int){}
 
 
 Q3 what is the output given by the print statement 
-Q3b draw the memory trace of the program right before the commented line. before the print is executed on line 60
+Q3b draw the memory trace of the program right before the commented line. before the print is executed on line 65
 ---------------------------------------------------------------------------------------------------------
 
 
