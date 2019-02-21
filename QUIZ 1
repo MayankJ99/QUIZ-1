@@ -47,7 +47,7 @@ def Division(input: List[Double]): Double = {
 
  def main(args: Array[String]): Unit = {
    val dataStructure: List[Double] = List(4.0, 0, 12.3, 7.5 )
-   val result: Int = Division(dataStructure)
+   val result: Double = Division(dataStructure)
    println(result)
  }
 
