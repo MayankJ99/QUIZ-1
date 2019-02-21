@@ -110,4 +110,4 @@ def function1(input: List[Int]): Int = {
    
 
 Q4 what is the output 
-Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time on line 96
+Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time on line 101
