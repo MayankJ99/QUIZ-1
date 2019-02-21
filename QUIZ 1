@@ -29,9 +29,9 @@ object Q1 {
 
 
 
-Q1 what is the output given by the print statement
+Q1 what is the output given by the print statement on line 25 
 
-
+---------------------------------------------------------------------------------------------
 
 
 
@@ -47,7 +47,7 @@ if(input.isEmpty==false){
 
 
 Q2 find 2 errors in this code
-
+---------------------------------------------------------------------------------------------------
 
 
 
@@ -74,8 +74,8 @@ class time(var state2: Int){}
 
 
 Q3 what is the output given by the print statement 
-Q3b draw the memory trace of the program right before the commented line. before the print is executed
-
+Q3b draw the memory trace of the program right before the commented line. before the print is executed on line 60
+---------------------------------------------------------------------------------------------------------
 
 
 
@@ -100,4 +100,4 @@ def function1(input: List[Int]): Int = {
    val dataStructure: List[Int] = List(2,6,42)
 
 Q4 what is the output 
-Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time
+Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time on line 96
