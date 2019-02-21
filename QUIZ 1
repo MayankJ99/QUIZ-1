@@ -34,9 +34,9 @@ Q1 what is the output given by the print statement on line 25
 ---------------------------------------------------------------------------------------------
 
 
+def computeAverage(input: List[String]): Double = {
 
-
-if(input.isEmpty==false){
+ if(input.isEmpty==false){
    var sum: Double = 0.0
    for (char <- input) {
      sum = sum / char.toInt
