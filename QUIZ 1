@@ -47,6 +47,11 @@ def computeAverage(input: List[String]): Double = {
 
 
 Q2 find 2 errors in this code
+
+Assume you are calling this method with a list of strings as numbers 
+For example :-
+var x : List[String] = new List(“2” , "0" , "1" )
+
 ---------------------------------------------------------------------------------------------------
 
 
@@ -55,8 +60,8 @@ object Q3 {
  def main(args: Array[Int]): Unit = {
    val init: Int = 10
    val speed: distance = new distance(new time(init), init)
-   velocity.update()
-   velocity.update()
+   speed.update()
+   speed.update()
    println(speed.state1.state2) //THISLINE 
  }
 }
