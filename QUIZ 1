@@ -103,6 +103,11 @@ def function1(input: List[Int]): Int = {
 
  def main(args: Array[String]): Unit = {
    val dataStructure: List[Int] = List(2,6,42)
+   val repeatedVariableName: Int = function1(dataStructure)
+   println(repeatedVariableName)
+ }
+
+   
 
 Q4 what is the output 
 Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time on line 96
