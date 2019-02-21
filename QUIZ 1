@@ -8,7 +8,7 @@ object Q1 {
      result += randomize(value, input(3))
      i = i + 4
    }
-   Result * i
+   result * i
  }
 
  def randomize(param1: Int, param2: Int): Int = {
@@ -29,7 +29,7 @@ object Q1 {
 
 
 
-Q1 what is the output
+Q1 what is the output given by the print statement
 
 
 
@@ -46,7 +46,7 @@ if(input.isEmpty==false){
 }
 
 
-Q2 find 2 errors
+Q2 find 2 errors in this code
 
 
 
@@ -57,7 +57,7 @@ object Q3 {
    val speed: distance = new distance(new time(init), init)
    velocity.update()
    velocity.update()
-   // println(speed.state1.state2)
+   println(speed.state1.state2) //THISLINE 
  }
 }
 
@@ -73,8 +73,8 @@ class time(var state2: Int){}
 
 
 
-Q3 what is the output 
-Q3b draw the memory trace of the program right before the commented line
+Q3 what is the output given by the print statement 
+Q3b draw the memory trace of the program right before the commented line. before the print is executed
 
 
 
@@ -93,11 +93,11 @@ def function1(input: List[Int]): Int = {
 
  def function2(input: Int): Int = {
    val repeatedVariableName: Int = input + input
-   repeatedVariableName
+   repeatedVariableName //THIS LINE 
  }
 
  def main(args: Array[String]): Unit = {
    val dataStructure: List[Int] = List(2,6,42)
 
 Q4 what is the output 
-Q4b draw the memory trace
+Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time
