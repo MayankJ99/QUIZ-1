@@ -34,26 +34,26 @@ Q1 what is the output given by the print statement on line 25
 ---------------------------------------------------------------------------------------------
 
 
-def computeAverage(input: List[String]): Double = {
+def Division(input: List[Double]): Double = {
 
  if(input.isEmpty==false){
-   var sum: Double = 0.0
-   for (char <- input) {
-     sum = sum / char.toInt
+   var sum: Double = 10.0
+   for (num <- input) {
+     sum = sum / num
    }
    sum 
  }
 }
 
+ def main(args: Array[String]): Unit = {
+   val dataStructure: List[Double] = List(4.0, 0, 12.3, 7.5 )
+   val result: Int = Division(dataStructure)
+   println(result)
+ }
 
 Q2 find 2 errors in this code
 
-Assume you are calling this method with a list of strings as numbers 
-For example :-
-var x : List[String] = new List(“2” , "0" , "1" )
-
 ---------------------------------------------------------------------------------------------------
-
 
 
 object Q3 {
@@ -79,7 +79,7 @@ class time(var state2: Int){}
 
 
 Q3 what is the output given by the print statement 
-Q3b draw the memory trace of the program right before the commented line. before the print is executed on line 65
+Q3b draw the memory trace of the program right before line 65 is executed
 ---------------------------------------------------------------------------------------------------------
 
 
@@ -110,4 +110,4 @@ def function1(input: List[Int]): Int = {
    
 
 Q4 what is the output 
-Q4b draw the memory trace of the program right before the commented line. before the line is executed for the FIRST time on line 101
+Q4b draw the memory trace of the program right before Line 101 is executed for the FIRST time
